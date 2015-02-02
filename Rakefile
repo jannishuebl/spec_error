@@ -5,4 +5,5 @@ require 'motion/project/template/android'
 Motion::Project::App.setup do |app|
   # Use `rake config' to see complete project settings.
   app.name = 'spec_error'
+  app.api_version = '19'
 end
